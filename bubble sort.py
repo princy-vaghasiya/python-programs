@@ -7,11 +7,6 @@ def sort(num):
               num[j]=temp
               
 
-n=int(input("enter size of an array:"))
-num=[]
-for i in range(n):
-  val=int(input("enter value:"))
-  num.append(val)
-
+num=[5,3,1,4,2]
 sort(num)
 print(num)
